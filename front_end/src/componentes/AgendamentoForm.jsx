@@ -60,7 +60,7 @@ function AgendamentoForm() {
           value={agendamento.cargo}
           onChange={(e) => setAgendamento({ ...agendamento, cargo: e.target.value })}
         >
-          <option value="">Selecione o cargo</option>
+          <option value="" disabled>Selecione o cargo</option>
           <option value="professor">Professor</option>
           <option value="aluno">Aluno</option>
           <option value="diretor">Diretor</option>
